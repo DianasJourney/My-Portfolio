@@ -7,13 +7,14 @@
     <title>Document</title>
     <link rel="stylesheet" href="assets/CSS/style.css" />
   </head>
+  
   <body class="hero">
     <header>
       <nav>
         <ul>
-          <li><a href="#About">About Me</a></li>
-          <li><a href="#Port">Portfolio</a></li>
-          <li><a href="#Contact">Contact</a></li>
+          <li><a class="a" href="#About">About Me</a></li>
+          <li><a class="a" href="#Port">Portfolio</a></li>
+          <li><a class="a" href="#Contact">Contact</a></li>
         </ul>
       </nav>
     </header>
@@ -22,10 +23,10 @@
       <aside class="left">
         <h1 id="About">About Me</h1>
         <figure class="card">
-          <img src="./assets/me.jpg" alt="MyPFP" style="width: 100%" />
+          <img  src="./assets/me.jpg" alt="MyPFP" style="width: 100%" />
           <section class="container"></section>
         </figure>
-        <figcaption>
+        <figcaption class="figcaption">
           Thanks for checking out my portfolio! My Name's <span id="dv">Diana Vu</span> and I live in
           Toronto, Ontario. I'm currently a student studying fulltime at UofT
           SCS Boot Camp for fullstack development. <span id="dv">I'm in the progression of
@@ -34,22 +35,37 @@
         <img class="ava" src="./assets/a.gif" id="ExcitedYouAreHere">
     </aside>
       <section class="right">
-        <h2 id="Port">My Portfolio</h2>
+        <h2 id="Port">My Projects</h2>
         <div class="box1">
-           <img src="./assets/9.png" alt="Project1">
+          <figcaption class="pjcap">Horiseon Code Refactor (Using Html and CSS)</figcaption>
+          <a class="links" href="https://dianasjourney.github.io/module-1/" target="_blank">
+           <img class="img" src="./assets/9.png" alt="Project1">
+           </a>
         </div>
         <div class="box2">
-            <img src="./assets/code1.jpg" alt="PlaceHolder">
+          <figcaption class="pjcap">Placeholder Project (Coming Soon)</figcaption>
+            <img class="img" src="./assets/code1.jpg" alt="PlaceHolder">
         </div>
         <div class="box2">
-            <img src="./assets/code3.jpg">
+          <figcaption class="pjcap">Placeholder Project (Coming Soon)</figcaption>
+            <img class="img" src="./assets/code3.jpg">
         </div>
         <div class="box2">
-            <img src="./assets/code 4.jpg">
+          <figcaption class="pjcap">Placeholder Project (Coming Soon)</figcaption>
+            <img class="img" src="./assets/code 4.jpg">
         </div>
-        <div class="box3">CONTACT ME</div>
+        <div class="box3" id="Contact">CONTACT ME</div>
+        <div class="box4">
+         <p>Email: Diana.vu@hotmail.com</p>
+         <p>Phone: 647-894-9477</p>
+         <p><a href="https://github.com/DianasJourney">Github</a></p>
+         <p><a href="https://www.linkedin.com/in/diana-vu-3373a0228/">Linkedin</a></p>
+        </div>
       </section>
     </main>
   </body>
-  <footer>Made by Diana</footer>
+  <footer>
+    <h5>💕Made by Diana💕 with CSS and HTML</h5>
+    
+  </footer>
 </html>

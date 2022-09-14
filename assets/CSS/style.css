@@ -28,7 +28,7 @@ nav ul, li {
     margin: 0px;
 }
 
-a {
+.a {
     text-decoration: none;
     color: rgb(255, 255, 255);
     font-size: 30px;
@@ -38,7 +38,7 @@ a {
     border-radius: 8px;
 }
 
-a:hover {
+.a:hover {
     border-radius: 8px;
     padding: 2px 2px;
     background-color: rgb(160, 208, 250);
@@ -72,11 +72,15 @@ h1 {
     color:rgb(42, 119, 185)
 }
 h2 {
-    font-family: cursive;
+    font-family: monospace;
     text-shadow: 2px 2px rgb(196, 185, 185);
-    color: lightblue;
+    color: rgb(6, 8, 8);
     flex: 1 1 100%;
     font-size: 60px;
+}
+
+h5 {
+    text-align: right;
 }
 
 .card {
@@ -92,12 +96,12 @@ h2 {
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2); 
 }
 
-figcaption {
+.figcaption {
     padding: 8px;
     margin: 10px;
     border-style: solid;
     position: relative;
-    top: 10px;
+    bottom: 30px;
     border-radius: 10px;
     border-color: white;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
@@ -108,6 +112,26 @@ figcaption {
 #dv {
     color:rgb(196, 48, 164);
     text-shadow: .5px .5px black;
+}
+
+.img:hover {
+    box-shadow: 15px 15px black;
+    transition-timing-function: ease-in;
+    transition: 1.5s;
+    margin-top: 15px;
+}
+
+.pjcap {
+    font-size: 20px;
+    justify-content: space-around;
+    font-weight: bolder;
+    background-color: white;
+    text-shadow: 2px 2px 3px rgb(238, 174, 217);
+
+}
+
+.links {
+    width: 0%;
 }
 
 .ava {
@@ -132,16 +156,33 @@ figcaption {
 }
 
 .box3 {
+    padding: 2px;
+    flex: 0 0 100%;
+    align-items: center;
+    margin-top: 150px;
+    font-size: 30px;
+}
+
+.box4 {
     padding: 1px;
     flex: 0 0 100%;
     align-items: center;
+    font-weight: bold;
+    text-decoration: none;
 }
 
-.box2 img,
-.box1 img {
+.box2 .img,
+.box1 .img {
     width: auto;
     height: auto;
     max-width: 100%;
     max-height: 100%;
     border-radius: 15px;
+}
+
+
+footer {
+    background-color: rgb(250, 185, 185);
+    text-align: center;
+    position: relative;
 }
