@@ -6,6 +6,8 @@
 :root {
 --box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 --flex: 0 0 100%;
+--font-weight: bolder;
+--display: flex;
 }
 /* we use the hero image to apply everything to the background */
 .hero{
@@ -25,7 +27,7 @@ header {
 }
 
 nav ul, li {
-    display: flex;
+    display: var(--display);
     list-style: none;
     font-size: 30px;
     justify-content: center;
@@ -52,10 +54,10 @@ nav ul, li {
 }
 
 main {
-    display: flex;
+    display: var(--display);
 }
 .left {
-    display: flex;
+    display: var(--display);
     flex-direction: column;
     width: 300px;
     flex: 0 0 14%;
@@ -65,7 +67,7 @@ main {
 }
 
 .right {
-    display: flex;
+    display: var(--display);
     text-align: center;
     width: 100%;
     flex: 1 0 50%;
@@ -111,7 +113,7 @@ h5 {
     border-color: white;
     box-shadow: var(--box-shadow);
     font-family: arial;
-    font-weight: bolder;
+    font-weight: var(--font-weight);
 }
 
 #dv {
@@ -129,7 +131,7 @@ h5 {
 .pjcap {
     font-size: 20px;
     justify-content: space-around;
-    font-weight: bolder;
+    font-weight: var(--font-weight);
     background-color: white;
     text-shadow: 2px 2px 3px rgb(238, 174, 217);
 
