@@ -28,6 +28,10 @@
 - The portfolio displays my projects, about me and how to contact me.
 - This is also my first portfolio.
 
+Wireframe for the layout
+![673a8c4bf8fd235f5b0dde349cdd3993](https://user-images.githubusercontent.com/109758045/190271759-d5ef0b84-3dab-40ae-bdd2-fa9131845d21.png)
+
+
 ### The following critera for this assignment: 
 - GIVEN I need to sample a potential employee's previous work
 - WHEN I load their portfolio
@@ -42,3 +46,9 @@
 - THEN I am taken to that deployed application
 - WHEN I resize the page or view the site on various screens and devices
 -THEN I am presented with a responsive layout that adapts to my viewport
+
+### Resources
+https://dianasjourney.github.io/My-Portfolio/
+
+### License 
+Ⓒ 2022 Diana Vu
