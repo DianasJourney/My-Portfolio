@@ -1,15 +1,15 @@
 <h1 align="center">Hey there! My Name's Diana and this is my Portfolio 🌱</h1>
-<h3 align="center">A work in progress Full Stack Web Developer</h3>
+<h3 align="center">Full Stack Web Developer</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=dianasjourney&label=Profile%20views&color=0e75b6&style=flat" alt="dianasjourney" /> </p>
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=dianasjourney" alt="dianasjourney" /></a> </p>
 
-- 🌱 I’m currently learning **Javascript**
+- 🌱 I’m currently learning **Angular**
 
 - 👨‍💻 All of my projects are available at [https://github.com/DianasJourney](https://github.com/DianasJourney)
 
-- 💬 Ask me about **HTML and CSS**
+- 💬 Ask me about **Anything**
 
 - 📫 How to reach me **diana.vu@hotmail.com**
 
@@ -26,7 +26,7 @@
 
 - This portfolio was created with the knowledge I have gained throughout the first week and a half of UofT SCS Bootcamp using HTML and CSS. 
 - The portfolio displays my projects, about me and how to contact me.
-- This is also my first portfolio.
+- This is my first portfolio.
 
 Wireframe for the layout
 ![673a8c4bf8fd235f5b0dde349cdd3993](https://user-images.githubusercontent.com/109758045/190271759-d5ef0b84-3dab-40ae-bdd2-fa9131845d21.png)
